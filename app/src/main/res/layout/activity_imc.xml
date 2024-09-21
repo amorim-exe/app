@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/editText_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu peso (kg)"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/button_voltar"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite sua altura (m)"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/editText_peso"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/button_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular IMC"
+        android:layout_below="@id/editText_altura"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_limpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpar"
+        android:layout_below="@id/button_calcular"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textView_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+        android:paddingTop="16dp"
+        android:textSize="18sp"
+        android:layout_below="@id/button_limpar"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/editText_gasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preço da Gasolina"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/button_close"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_alcool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preço do Álcool"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/editText_gasolina"
+        android:layout_marginTop="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup_combustivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/editText_alcool"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButton_gasolina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gasolina" />
+
+        <RadioButton
+            android:id="@+id/radioButton_alcool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Álcool" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView_resultado_combustivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:layout_below="@id/radioGroup_combustivel"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/button_limpar_combustivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpar"
+        android:layout_below="@id/textView_resultado_combustivel"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
