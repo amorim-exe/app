@@ -21,10 +21,10 @@ public class ApresentacaoActivity extends AppCompatActivity {
         TextView buttonClose = findViewById(R.id.button_close); // O "X"
 
         String nomeAluno = "João Victor";
-        String curso = "Ciência da Computação";
-        String matricula = "2023123456";
-        String semestre = "5º Semestre";
-        String disciplina = "Desenvolvimento Mobile";
+        String curso = "Analise e Desenvolvimento de Sistemas";
+        String matricula = "34014063";
+        String semestre = "4º Semestre";
+        String disciplina = "Programação Para Dispositivos Móveis";
 
         textViewNome.setText("Nome do Aluno: " + nomeAluno);
         textViewCurso.setText("Curso: " + curso);
