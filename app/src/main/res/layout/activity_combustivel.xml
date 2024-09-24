@@ -25,8 +25,7 @@
         android:inputType="numberDecimal"
         android:layout_below="@id/button_close"
         android:layout_marginTop="32dp"
-        android:padding="12dp"
-        android:background="@drawable/edittext_background"/>
+        android:padding="12dp"/>
 
     <EditText
         android:id="@+id/editText_alcool"
@@ -36,8 +35,7 @@
         android:inputType="numberDecimal"
         android:layout_below="@id/editText_gasolina"
         android:layout_marginTop="16dp"
-        android:padding="12dp"
-        android:background="@drawable/edittext_background"/>
+        android:padding="12dp"/>
 
     <RadioGroup
         android:id="@+id/radioGroup_combustivel"
