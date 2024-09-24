@@ -10,60 +10,61 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="X"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:textColor="@android:color/white"
-        android:padding="8dp"
+        android:padding="10dp"
         android:clickable="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"/>
 
     <TextView
         android:id="@+id/textView_nome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nome do Aluno:"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textColor="@android:color/white"
         android:layout_below="@id/button_close"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="24dp"/>
 
     <TextView
         android:id="@+id/textView_curso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Curso:"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textColor="@android:color/white"
         android:layout_below="@id/textView_nome"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="16dp"/>
 
     <TextView
         android:id="@+id/textView_matricula"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Número de Matrícula:"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textColor="@android:color/white"
         android:layout_below="@id/textView_curso"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="16dp"/>
 
     <TextView
         android:id="@+id/textView_semestre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Semestre:"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textColor="@android:color/white"
         android:layout_below="@id/textView_matricula"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="16dp"/>
 
     <TextView
         android:id="@+id/textView_disciplina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Disciplina:"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textColor="@android:color/white"
         android:layout_below="@id/textView_semestre"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="16dp"/>
 </RelativeLayout>
